@@ -7,17 +7,17 @@ body::-webkit-scrollbar{
     display: none;
 }
 header nav{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+nav:hover{
+    background-color: rgba(20, 45, 152, 0.9);
 }
 .nav-link{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: aliceblue;
 }
-.navbar-toggler-icon{
-   color: white;
-}
+
 .home{
    display: flex;
    justify-content: space-between;
@@ -38,6 +38,10 @@ header nav{
 }
 .logo img{
     margin-top: 200px;
+   
+}
+.logo img:hover{
+    opacity: 0.8;
 }
 .about{
   display: flex;
@@ -47,7 +51,7 @@ header nav{
   height: 800px;
 }
 .content{
-    margin-top: 70px;
+    margin-top: 120px;
 }
 .para{
     margin-top: 20px;
@@ -199,6 +203,9 @@ textarea{
     .about-image{
         display: none;
     }
+    /* nav:hover{
+        background-color: #1836a1;
+    } */
 }
 @media screen and (max-width:998px) {
     .about-content{
@@ -215,7 +222,7 @@ textarea{
         text-align: center;
     }
     .logo{
-      margin-left: 40px;
+      margin-left: 55px;
       margin-top: -150px;
       width: 350px;
     }
@@ -231,6 +238,7 @@ textarea{
     .pro-res{
         margin-top: 70px;
     }
+    
 }
 footer{
     margin-top: 100px;
