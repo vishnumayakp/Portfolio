@@ -18,8 +18,8 @@
 </script>
 </head>
 <body>
-  <header style="position: fixed; width: 100%;">
-    <nav class="navbar navbar-expand-lg ">
+  <!-- <header style="position: fixed; width: 100%; background-color: blackz-index: 100;; z-index: 100;">
+    <nav class="navbar navbar-expand-lg bg-black">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,22 +43,49 @@
         </ul>
       </div>
     </nav>
+  </header> -->
+
+  <header style="position: fixed; width: 100%; z-index: 100;">
+    <nav  class="navbar navbar-expand-lg navbar-light  ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active mr-5">
+            <a class="nav-link" style="color: white;" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item active mr-5">
+            <a class="nav-link" style="color: white;"  href="#about-section">About</a>
+          </li>
+          <li class="nav-item active mr-5">
+            <a class="nav-link" style="color: white;"  href="#skill-section">Skill</a>
+          </li>
+          <li class="nav-item active mr-5">
+            <a class="nav-link" style="color: white;"  href="#project-section">Projects</a>
+          </li>
+          <li class="nav-item active mr-5">
+            <a class="nav-link" style="color: white;"  href="#contact-section">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <section id="home-section">
-      <div class="home">
+      <div class="home container">
         <div class="home-page">
           <div class="content-part">
             <h4>Hello, It's me</h4>
-          <h2 style="font-weight: bold;">Vishnumaya KP</h2>
+          <h2 style="font-weight: bold;font-size: 50px;">Vishnumaya KP</h2>
           <h4>And I'm a Front-end Developer</h4>
-          <h6 style="margin-top: 30px;">I'm a web Designer with extensive experience for over 3 years. <br>
+          <h6 style="margin-top: 30px;">I'm a web Designer with extensive experience for over 0 years. <br>
           expertise is to create and website design, Frontend design, and <br>
           many more....</h6>
-          <div class="social-icon">
-          <a href=""><img src="images/facebook (2).png" class="logo-icon" alt=""></a>
-          <a href=""><img src="images/instagram (2).png" class="logo-icon" alt=""></a>
-         <a href=""> <img src="images/whatsapp (3).png" class="logo-icon" alt=""></a>
+          <div class="social-icon icons">
+          <a href="https://www.facebook.com/profile.php?id=100072128498073&mibextid=ZbWKwL"><img src="images/facebook (2).png" class="logo-icon" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram (2).png" class="logo-icon" alt=""></a>
+         <a href="https://wa.link/nbheat"> <img src="images/whatsapp (3).png" class="logo-icon" alt=""></a>
           </div>
           </div> 
         </div>
@@ -72,7 +99,7 @@
 
 
   <section id="about-section">
-    <div class="about">
+    <div class="about container">
       <div class="about-image">
         <div class="logo">
           <img src="https://media.licdn.com/dms/image/D5603AQHPcC-3E7qRow/profile-displayphoto-shrink_400_400/0/1718536908915?e=1724284800&v=beta&t=XQhtR0sf3_HndcYGAFpi3l_CHmehTU2S4vWB2Fe--Ag" alt="" style="border-radius: 50%; width: 350px;" class="img-fluid rounded-circle">
@@ -88,9 +115,6 @@
               I take pride in staying up-to-date with current design trends and leveraging my creativity to produce  visually appealing and user-friendly websites. 
               Throughout my career, I have developed a deep understanding of user experience (UX) and user interface (UI) principles. 
               By putting myself in the shoes  of the end-users, I strive to create intuitive and seamless browsing experiences. 
-              I believe that a well-designed website should not only look visually appealing but also provide a smooth and enjoyable  interaction for visitors. 
-              When starting a new project, I thoroughly research and analyze the target audience  and the client's specific requirements. 
-              This enables me to tailor my designs to meet their expectations and deliver a unique online presence that aligns with their brand identity.
             </p>
           </div>
           <div >
@@ -103,113 +127,109 @@
 
 </section>
 
-<section id="skill-section">
+<section class="pt-3" id="skill-section">
   <h1 style="text-align: center; margin-top: 40px; font-weight: bold; font-size: 50px;">MY Skills</h1>
-  <div class="skill">
-    
-    <div class="tech-skill">
-      <div><h3 class="text">Technical Skill</h3>
+    <div class="tech-skill container" >
         <div>
-          <img src="images/html-5.png" style="width: 30px;" alt="">
+          <img src="images/html-5.png" style="width: 20px;" alt="">
         <h6 style=" font-weight: bold; margin-top: 10px;">HTML</h6>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #00bcd4; color: black;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #00bcd4; color: black;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
         </div>
         </div>
 
         <div style="margin-top: 40px;">
-          <img src="images/css-3.png" style="width: 30px;" alt="">
+          <img src="images/css-3.png" style="width: 20px;" alt="">
         <h6 style=" font-weight: bold; margin-top: 10px;">CSS</h6>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #00bcd4; color: black;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+          <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #00bcd4; color: black;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
         </div>
         </div>
 
         <div style="margin-top: 40px;">
-          <img src="images/javascript.png" style="width: 30px;" alt="">
+          <img src="images/javascript.png" style="width: 20px;" alt="">
         <h6 style="font-weight: bold; margin-top: 10px;">Javascript</h6>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #00bcd4; color: black;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+          <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #00bcd4; color: black;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
         </div>
         </div>
 
         <div style="margin-top: 40px;">
-          <img src="images/python.png" style="width: 30px;" alt="">
+          <img src="images/python.png" style="width: 20px;" alt="">
         <h6 style="font-weight: bold; margin-top: 10px;">Python</h6>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 120%; background-color: #00bcd4; color: black;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+          <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #00bcd4; color: black;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
         </div>
         </div>
 
         <div style="margin-top: 40px;">
-          <img src="images/physics.png" style="width: 30px;" alt="">
+          <img src="images/physics.png" style="width: 20px;" alt="">
         <h6 style="font-weight: bold; margin-top: 10px;">React</h6>
         <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #00bcd4; color: black;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+          <div class="progress-bar" role="progressbar" style="width:10%; background-color: #00bcd4; color: black;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
         </div>
         </div>
-      </div>
       
     </div>
-  </dv>
 </section>
 
-<section id="project-section">
-  <h1 style="text-align: center; margin-top: 40px; font-weight: bold; font-size: 50px;">MY Projects</h1>
-  <div class="projects">
+<section class="pt-5" id="project-section">
+  <h1  style="text-align: center; font-weight: bold; font-size: 50px;">MY Projects</h1>
+  <div class="projects container">
 
    <div class="pro-container">
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
         
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
-        <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
-        
-      </div>
+      <a href="">
+        <div class="card" style="width: 23rem;">
+          <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">    
+        </div>
+      </a>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
        
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
         
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
         
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
         
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">
         
       </div>
     </div>
 
     <div>
-      <div class="card" style="width: 35rem;">
+      <div class="card" style="width: 23rem;">
         <img src="images/pexels-sora-shimazaki-5926393.jpg" class="card-img-top" alt="...">  
       </div>
     </div>
@@ -220,44 +240,51 @@
 </section>
 
 <section id="contact-section">
-  <div class="contact">
+  <div class="contact container">
    <div class="contact-info">
-    <div class="info" >
-      <h2 style="text-align: center; font-weight: bold;">Contact Me</h2>
+    <div class="info">
+      <h2 style=" font-weight: bold;">Contact Me</h2>
       <div >
-        <h4>Let's Work Together</h4>
-        <p style="max-width: 800px; color: grey; font-weight: bold;">In a world full of challenges and opportunities, the greatest strength we have is our ability to come together. 
+        <h4>Let's Work Together</h4><br>
+        <p style="color: grey; font-weight: bold;">In a world full of challenges and opportunities, the greatest strength we have is our ability to come together. 
           Regardless of where we come from, our beliefs, or our experiences, we all share the common goal of making the world a better place.</p>
       </div>
       <div>
         <a href="" class="email"><img src="images/send.png" class="logo-icon" alt="">vm6553088@gmail.com</a><br><br>
         <a href="" class="email"><img src="images/call.png" class="logo-icon" alt="">+91 9526790841</a>
         <div style="margin-top: 30px;">
-          <a href=""><img src="images/facebook (2).png" class="logo-icon" alt=""></a>
-          <a href=""><img src="images/instagram (2).png" class="logo-icon" alt=""></a>
-          <a href=""><img src="images/social (1).png" class="logo-icon" alt=""></a>
-          <a href=""><img src="images/social (2).png" class="logo-icon" alt=""></a>
+          <a href="https://www.facebook.com/profile.php?id=100072128498073&mibextid=ZbWKwL"><img src="images/facebook (2).png" class="logo-icon" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="images/instagram (2).png" class="logo-icon" alt=""></a>
+          <a href="http://www.linkedin.com/in/vishnumayakp"><img src="images/social (1).png" class="logo-icon" alt=""></a>
+          <a href="https://github.com/Vishnumayakp"><img src="images/social (2).png" class="logo-icon" alt=""></a>
         </div>
       </div>
     </div>
-    
+  </div>
+    <div class="contact-email">
+      <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Enter Your Name" id="name" required>
+            <input type="email" placeholder="Enter Your Email" id="email" required>
+            <input type="number" placeholder="Enter Your Phone number" id="phone" required>
+            <textarea placeholder="Enter Your Message" id="msg" required></textarea>
+            <button type="submit" onclick="sendEmail()">Submit</button>
+        </form>
+    </div>
+    </div>
+  
    </div>
-   <div class="contact-email">
-    <div class="contact-form">
-      <form>
-          <input type="text" placeholder="Enter Your Name" id="name" required>
-          <input type="email" placeholder="Enter Your Email" id="email" required>
-          <input type="number" placeholder="Enter Your Phone number" id="phone" required>
-          <textarea placeholder="Enter Your Message" id="msg" required></textarea>
-          <button type="submit" onclick="sendEmail()">Submit</button>
-      </form>
-  </div>
-  </div>
+
+   <footer class="bg-body-tertiary text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © 2024 Vishnumaya:
+      <a class="text-body" style="text-decoration: none; color: #00bcd4;" href="https://mdbootstrap.com/">,All right reserved</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+   
 </section>
-
-
-
-
 <script src="index.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
