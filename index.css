@@ -209,7 +209,7 @@ textarea{
 }
 @media screen and (max-width:998px) {
     .about-content{
-        margin-top: 150px;
+        margin-top: 40px;
     }
     .contact-info{
         max-width: 100%;
@@ -222,7 +222,7 @@ textarea{
         text-align: center;
     }
     .logo{
-      margin-left: 55px;
+      margin-left: 15px;
       margin-top: -150px;
       width: 350px;
     }
@@ -230,7 +230,7 @@ textarea{
         margin-top: -70px;
     }
     .home-page{
-        margin-top: -150px;
+        margin-top: -195px;
     }
     .cv-btn{
         text-align: center;
