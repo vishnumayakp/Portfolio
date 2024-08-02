@@ -22,11 +22,10 @@ header nav{
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   height: 800px;
+   height: 500px;
 }
-
 .content-part{
-    margin-top: 200px;
+    margin-top: 250px;
 }
 .social-icon{
     padding: 5px;
@@ -38,7 +37,7 @@ header nav{
     transform: scale(1.5);
 }
 .logo img{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .about{
   display: flex;
@@ -84,7 +83,7 @@ header nav{
     
 }
   
-  .progress-bar {
+.progress-bar {
     border-radius: 25px;
     
 }
@@ -203,7 +202,7 @@ textarea{
 }
 @media screen and (max-width:998px) {
     .about-content{
-        margin-top: px;
+        margin-top: 150px;
     }
     .contact-info{
         max-width: 100%;
@@ -217,16 +216,20 @@ textarea{
     }
     .logo{
       margin-left: 40px;
-      margin-top: -40px;
+      margin-top: -150px;
+      width: 350px;
     }
     #skill-section{
-        margin-top: -150px;
+        margin-top: -70px;
     }
     .home-page{
-        margin-top: -100px;
+        margin-top: -150px;
     }
     .cv-btn{
         text-align: center;
+    }
+    .pro-res{
+        margin-top: 70px;
     }
 }
 footer{
